@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:id="@+id/setting_show_notification"
+        android:defaultValue="false"
+        android:key="setting_show_notification"
+        android:summary="@string/summary_notification"
+        android:title="@string/title_notification" />
+
+    <CheckBoxPreference
+        android:id="@+id/setting_start_boot"
+        android:defaultValue="false"
+        android:key="setting_start_boot"
+        android:summary="@string/summary_start_boot"
+        android:title="@string/title_start_boot" />
+
+    <CheckBoxPreference
+        android:id="@+id/setting_auto_wifi"
+        android:defaultValue="false"
+        android:key="setting_auto_wifi"
+        android:summary="@string/summary_auto_wifi"
+        android:title="@string/title_auto_wifi" />
+
+    <CheckBoxPreference
+        android:id="@+id/setting_auto_mobile"
+        android:defaultValue="false"
+        android:key="setting_auto_mobile"
+        android:summary="@string/summary_auto_mobile"
+        android:title="@string/title_auto_mobile" />
+
+    <Preference
+        android:key="full_version"
+        android:summary="@string/summary_full_version"
+        android:title="@string/full_version" />
+
+    <Preference
+        android:key="contact_dev"
+        android:title="@string/contact_developer" />
+
+    <Preference android:key="version" />
+</PreferenceScreen>

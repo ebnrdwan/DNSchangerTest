@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_switch_ip_version"
+        android:icon="@drawable/ic_action_ipv6"
+        android:orderInCategory="0"
+        android:title="IPv6"
+        app:showAsAction="ifRoom" />
+</menu>

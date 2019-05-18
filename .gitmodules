@@ -1,0 +1,3 @@
+[submodule "AndroidUtils"]
+	path = AndroidUtils
+	url = https://git.frostnerd.com/development/AndroidUtils.git

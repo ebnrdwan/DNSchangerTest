@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">DNS changes test Abdulrahman</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="rate">Rate</string>
+    <string name="info_dns_button">Info about DNS</string>
+    <string name="default_dns">Default DNS Addresses</string>
+    <string name="default_dns_title">Public DNS providers</string>
+    <string name="dns_info_text">DNS stands for Domain Name System.\n\nThe Domain Name System is used to resolve Domains (google.com, yahoo.com, example.com...) to IP Addresses (192.168.178.1 for example) to communicate over the Internet.\n\nIt is one of the most important systems used in IP-based networks.</string>
+    <string name="vpn_explain">we need to filter the web for you, so please grant us the vpn permission, your data will be filtered locally and never leaves your phone</string>
+    <string name="information">Information</string>
+    <string name="settings">Settings</string>
+    <string name="title_notification">Notification</string>
+    <string name="summary_notification">Show a notification when DNSChanger is running</string>
+    <string name="title_start_boot">Start on boot</string>
+    <string name="summary_start_boot">Automatically start DNSChanger when your phone is turned on</string>
+    <string name="subtitle_configuring">Configuring [[x]]</string>
+    <string name="menu_title_configure_v4">Configure IPv4</string>
+    <string name="menu_title_configure_v6">Configure IPv6</string>
+    <string name="action_resume">Resume</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_stop">Stop</string>
+    <string name="notification_paused">DNS Changer is paused (VPN not running)</string>
+    <string name="notification_running">DNS Changer is active (VPN running)</string>
+    <string name="active">Active</string>
+    <string name="paused">Paused</string>
+    <string name="summary_auto_wifi">Automatically turn on DNS Changer when connecting to a wifi network</string>
+    <string name="summary_auto_mobile">Automatically turn on DNS Changer when connecting to a mobile network</string>
+    <string name="title_auto_wifi">Automatically start (WIFI)</string>
+    <string name="title_auto_mobile">Automatically start (Mobile)</string>
+    <string name="running">Running</string>
+    <string name="not_running">Not running</string>
+    <string name="background_configure_error">Permission to start the VPN denied. \nThis could be the system denying vpn connections being started from the background for safety reasons.\n\nOpen the app to start the VPN</string>
+    <string name="open_app">Open app</string>
+    <string name="rate_request_text">Would you like to rate this app?\nIt\'d help spreading it and shows appreciation of my work.</string>
+    <string name="not_now">Not now</string>
+    <string name="dont_ask_again">Don\'t ask again</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">ok</string>
+    <string name="error">Error</string>
+    <string name="send_crash_report">Send crash report</string>
+    <string name="vpn_error_explain">On some Android versions (4.4, some 5.0 versions) and custom ROMs the underlying VPN structure doesn\'t work and leads to crashes.  The App crashed unexpectedly which most likely indicates that your phone doesn\'t support how this app operates (The error could be temporary aswell). If that\'s the case you could help me by sending the crash report, but sadly this app doesn\'t work on your device.</string>
+    <string name="contact_developer">Contact developer</string>
+    <string name="summary_version" translatable="false">Version [[version]] ([[code]]) \n\n© Daniel Wolf 2017 All rights reserved</string>
+    <string name="full_version">Full version</string>
+    <string name="summary_full_version">Download full version from store (Free)</string>
+</resources>

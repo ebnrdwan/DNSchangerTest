@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MaterialEditText">
+        <attr name="cardCollapsedHeight" format="dimension"/>
+        <attr name="labelColorPrimary" format="color"/>
+        <attr name="labelColorSecondary" format="color"/>
+        <attr name="minCharLength" format="integer"/>
+        <attr name="maxCharLength" format="integer"/>
+        <attr name="image" format="reference"/>
+        <attr name="indicatorState" format="enum">
+            <enum name="incorrect" value="0"/>
+            <enum name="correct" value="1"/>
+            <enum name="undefined" value="2"/>
+        </attr>
+        <attr name="animationDuration" format="integer"/>
+        <attr name="openKeyboardOnFocus" format="boolean"/>
+        <!--<attr name="labelPosition" format="enum">
+            <enum name="bottom" value="0"/>
+            <enum name="top" value="1"/>
+        </attr>-->
+        <attr name="revealType" format="enum">
+            <enum name="revealOnClick" value="0"/>
+            <enum name="revealInstant" value="1"/>
+            <enum name="hideOnFocusLoss" value="2"/>
+        </attr>
+        <attr name="indicatorVisibilityWhenUnused" format="enum">
+            <enum name="hidden" value="0"/>
+            <enum name="gone" value="1"/>
+        </attr>
+        <attr name="revealDelay" format="integer"/>
+        <attr name="allowCollapse" format="boolean"/>
+        <attr name="labelText" format="string"/>
+        <attr name="cardColor" format="color"/>
+        <attr name="cardStrokeColor" format="color"/>
+        <attr name="indicatorColorCorrect" format="color"/>
+        <attr name="indicatorColorIncorrect" format="color"/>
+    </declare-styleable>
+</resources>

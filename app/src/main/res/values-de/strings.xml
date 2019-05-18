@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DnsChanger Light</string>
+    <string name="start">Starten</string>
+    <string name="stop">Stoppen</string>
+    <string name="rate">Bewerten</string>
+    <string name="info_dns_button">Infos über DNS</string>
+    <string name="default_dns">Voreingstellte DNS Adressen</string>
+    <string name="default_dns_title">Öffentliche DNS Anbieter</string>
+    <string name="dns_info_text">DNS steht für Domain Name System.\n\nDas Domain Name System wird benutzt, um Domains (google.com, yahoo.com, example.org...) zu IP-Adressen (z.B. 192.168.178.1) aufzulösen und zu die Kommunikation über das Internet zu ermöglichen.\n\nDas DNS ist eines der wichtigsten System in IP-basierten Netzwerken.</string>
+    <string name="information">Information</string>
+    <string name="vpn_explain">Diese App funktioniert, ohne, dass das Gerät gerooted sein muss.\n\nUm dies zu ermöglichen, wird ein sog. VPN benutzt. Dieser VPN empfängt den gesamten Traffic und leitet ihn nur lokal an das eigene Gerät weiter (Loopback), es verlassen über diese VPN Verbindung keine Daten das Gerät.\n\nDu wirst im nächsten Fenster gefragt, diese VPN Verbindung zu erlauben, ohne deine Zustimmung werden die eingestellten DNS Server nicht genutzt.\n\nDer Source Code kann unter https://git.frostnerd.com/PublicAndroidApps/DnsChanger-Light eingesehen werden.</string>
+    <string name="settings">Einstellungen</string>
+    <string name="title_notification">Benachrichtigung</string>
+    <string name="summary_notification">Zeige eine Benachrichtigung, wenn DNSChanger läuft</string>
+    <string name="title_start_boot">Beim Booten starten</string>
+    <string name="summary_start_boot">Starte DNSChanger automatisch, wenn dein Handy angeschaltet wird.</string>
+    <string name="subtitle_configuring">Editiere [[x]]</string>
+    <string name="menu_title_configure_v4">IPv4 konfigurieren</string>
+    <string name="menu_title_configure_v6">IPv6 konfigurieren</string>
+    <string name="action_resume">Fortfahren</string>
+    <string name="action_pause">Pausieren</string>
+    <string name="action_stop">Stoppen</string>
+    <string name="notification_paused">DNS Changer ist pausiert (VPN läuft nicht)</string>
+    <string name="notification_running">DNS Changer ist aktiv (VPN läuft)</string>
+    <string name="active">Aktiv</string>
+    <string name="paused">Pausiert</string>
+    <string name="summary_auto_mobile">DNS Changer automatisch anschalten, sobald das Handy über ein mobiles Netzwerk mit dem Internet verbunden ist</string>
+    <string name="summary_auto_wifi">DNS Changer automatisch anschalten, sobald das Handy mit einem WLAN-Netzwerk verbunden ist</string>
+    <string name="title_auto_wifi">Automatisch starten (WLAN)</string>
+    <string name="title_auto_mobile">Automatisch starten (Mobilfunk)</string>
+    <string name="not_running">Läuft nicht</string>
+    <string name="running">Läuft</string>
+    <string name="background_configure_error">Die Berechtigung, den VPN zu starten wurde verwährt.\nDies könnte das System sein, welches die Anfrage automatisch ablehnt, da sie nicht aus dem Vordergrund gestellt wurde (Mögliches Sicherheitsrisiko)\n\nÖffne die App, um den VPN zu starten</string>
+    <string name="open_app">App öffnen</string>
+    <string name="rate_request_text">Möchtest du diese App bewerten?\nEs würde helfen, diese App zu verbreiten und zöllt meiner Arbeit Anerkennung.</string>
+    <string name="not_now">Nicht jetzt</string>
+    <string name="dont_ask_again">Nicht erneut fragen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="ok">ok</string>
+    <string name="error">Fehler</string>
+    <string name="send_crash_report">Absturzbericht senden</string>
+    <string name="vpn_error_explain">Bei einigen Android Versionen (4.4, einige wenige 5.0 Versionen) und Custom ROMS wird die dieser App zu Grund liegende VPN-Struktur nicht unterstützt, was zu Abstürzen führt.  Diese App ist unerwartet abgestürzt, was höchstwahrscheinlich darauf hindeutet, dass den Gerät diese App nicht unterstützt (Es muss es allerdings nicht zwangsläufig bedeuten). Sollte dies der Fall sein, könnest du mir helfen, indem du mir den Fehlerbericht sendest, aber leider funktioniert diese App auf deinem Gerät nicht.</string>
+    <string name="contact_developer">Entwickler kontaktieren</string>
+    <string name="full_version">Vollversion</string>
+    <string name="summary_full_version">Vollversion aus dem Store herunterladen (Kostenlos)</string>
+</resources>

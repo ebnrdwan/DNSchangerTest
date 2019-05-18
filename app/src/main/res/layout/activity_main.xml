@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.frostnerd.dnschangerlight.MainActivity">
+
+
+    <com.frostnerd.dnschangerlight.API.MaterialEditText
+        android:id="@+id/met_dns1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:allowCollapse="false"
+        app:cardColor="#42A5F5"
+        app:cardStrokeColor="#42A5F5"
+        app:image="@drawable/ic_language"
+        app:revealDelay="0"
+        app:revealType="revealInstant">
+
+        <EditText
+            android:id="@+id/dns1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789."
+            android:hint="DNS 1"
+            android:inputType="numberDecimal"
+            android:text="185.228.168.168"
+            android:textColor="#FFF" />
+    </com.frostnerd.dnschangerlight.API.MaterialEditText>
+
+
+    <com.frostnerd.dnschangerlight.API.MaterialEditText
+        android:id="@+id/met_dns2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:allowCollapse="false"
+        app:cardColor="#42A5F5"
+        app:cardStrokeColor="#2196F3"
+        app:image="@drawable/ic_language"
+        app:revealDelay="0"
+        app:revealType="revealInstant">
+
+        <EditText
+            android:id="@+id/dns2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789."
+            android:hint="DNS 2"
+            android:inputType="numberDecimal"
+            android:text="185.228.169.168"
+            android:textColor="#FFF" />
+    </com.frostnerd.dnschangerlight.API.MaterialEditText>
+
+    <LinearLayout
+        android:id="@+id/default_dns_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#42A5F5"
+        android:clickable="true"
+        android:onClick="openDefaultDNSDialog"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/default_dns_view_image"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="#42A5F5"
+            android:src="@drawable/ic_action_import" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#FFF" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/default_dns"
+            android:textColor="#FFF" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/startStopButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:background="#42A5F5"
+        android:text="@string/start"
+        android:textColor="#FFF" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/rate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/settings"
+            android:layout_weight="1"
+            android:background="#42A5F5"
+            android:onClick="rateApp"
+            android:text="@string/rate"
+            android:textColor="#FFF" />
+
+        <ImageView
+            android:id="@+id/settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="#42A5F5"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:src="@drawable/ic_settings" />
+
+        <Button
+            android:id="@+id/dnsInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/settings"
+            android:layout_weight="1"
+            android:background="#42A5F5"
+            android:onClick="openDNSInfoDialog"
+            android:text="@string/info_dns_button"
+            android:textColor="#FFF" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/running_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="9dp" />
+
+    <TextView
+        android:id="@+id/connection_status_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="#FFF" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/connection_status_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:maxHeight="64dp"
+            android:maxWidth="64dp"
+            android:padding="15dp"/>
+    </RelativeLayout>
+</LinearLayout>

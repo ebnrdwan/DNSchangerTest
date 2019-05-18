@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+
+    <dimen name="navigation_drawer_width">360dp</dimen>
+    <dimen name="navigation_drawer_horizontal_margin">24dp</dimen>
+    <dimen name="navigation_drawer_horizontal_margin_header">20dp</dimen>
+</resources>
